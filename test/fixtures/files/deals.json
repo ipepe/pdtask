@@ -1,0 +1,51 @@
+{
+  "entries":[
+    {
+      "id":1,
+      "name":"One",
+      "value_in_cents": 1000,
+      "deal_stage":{
+        "id":2,
+        "percent":50,
+        "name":"Fifty"
+      }
+    },
+    {
+      "id":2,
+      "name":"Two",
+      "value_in_cents": 2000,
+      "deal_stage":{
+        "id":1,
+        "percent":25,
+        "name":"TwentyFive"
+      }
+    },
+    {
+      "id":3,
+      "name":"Three",
+      "value_in_cents": 3000,
+      "deal_stage":{
+        "id":3,
+        "percent":100,
+        "name":"Hundred"
+      }
+    },
+    {
+      "id":4,
+      "name":"Four",
+      "value_in_cents": 4000,
+      "deal_stage":{
+        "id":1,
+        "percent":25,
+        "name":"TwentyFive"
+      }
+    }
+  ],
+  "pagination":{
+    "page":1,
+    "page_var":"page",
+    "per_page":200,
+    "pages":1,
+    "total":3
+  }
+}
