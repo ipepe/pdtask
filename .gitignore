@@ -15,3 +15,11 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore dotenv files
+.env.*
+
+# Ignore node modules
+node_modules
+
+coverage/*
